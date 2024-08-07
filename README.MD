@@ -1,5 +1,5 @@
 # RNN SageMaker Algorithm
-The [Time Series Forecasting (RNN) Algorithm from AWS Marketplace]() performs time series forecasting with a multi-layer Recurrent Neural Network (RNN). 
+The [Time Series Forecasting (RNN) Algorithm from AWS Marketplace](https://aws.amazon.com/marketplace/pp/prodview-p5cr7ncmdcziw) performs time series forecasting with a multi-layer Recurrent Neural Network (RNN). 
 It implements both training and inference from CSV data and supports both CPU and GPU instances. 
 The training and inference Docker images were built by extending the PyTorch 2.1.0 Python 3.10 SageMaker containers. 
 
