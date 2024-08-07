@@ -93,3 +93,6 @@ The algorithm supports only real-time inference endpoints. The inference image i
 See [`notebook.ipynb`](https://github.com/fg-research/rnn-sagemaker/blob/master/notebook.ipynb) for an example of how to deploy the model to an endpoint, invoke the endpoint and process the response.
 
 **Additional Resources:** [[Sample Notebook]](https://github.com/fg-research/rnn-sagemaker/blob/master/notebook.ipynb) [[Blog Post]](https://fg-research.com/blog/product/posts/rnn-fx-forecasting.html)
+
+## References
+- J. Chung, C. Gulcehre, K. Cho, and Y. Bengio, "Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling", 2014, arXiv preprint, [doi:10.48550/arXiv.1412.3555](https://doi.org/10.48550/arXiv.1412.3555).
