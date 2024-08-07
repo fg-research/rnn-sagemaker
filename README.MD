@@ -8,7 +8,7 @@ The model is a stack of RNN layers with either LSTM or GRU cells.
 Each RNN layer is followed by an activation layer and a dropout layer.
 The model is trained by minimizing the negative Gaussian log-likelihood and outputs the predicted mean and standard deviation of each target time series at each future time step.
 
-
+<img src=https://fg-research-assets.s3.eu-west-1.amazonaws.com/rnn-diagram.png style="width:80%;margin-top:20px;margin-bottom:20px"/>
 
 *LSTM and GRU cells (source: [doi:10.48550/arXiv.1412.3555](https://doi.org/10.48550/arXiv.1412.3555))*
 
