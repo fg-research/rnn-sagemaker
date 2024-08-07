@@ -93,7 +93,3 @@ The algorithm supports only real-time inference endpoints. The inference image i
 See [`notebook.ipynb`](https://github.com/fg-research/rnn-sagemaker/blob/master/notebook.ipynb) for an example of how to deploy the model to an endpoint, invoke the endpoint and process the response.
 
 **Additional Resources:** [[Sample Notebook]](https://github.com/fg-research/rnn-sagemaker/blob/master/notebook.ipynb) [[Blog Post]](https://fg-research.com/blog/product/posts/rnn-fx-forecasting.html)
-
-## References
-- R. Hasani, M. Lechner, A. Amini, D. Rus and R. Grosu, "Liquid time-constant networks", in *Proceedings of the AAAI Conference on Artificial Intelligence*, vol. 35, no. 9, pp. 7657-7666, 2021, [doi: 10.1609/aaai.v35i9.16936](https://doi.org/10.1609/aaai.v35i9.16936).
-- R. Hasani, M. Lechner, A. Amini, L. Liebenwein, A. Ray, M. Tschaikowski, G. Teschl and D. Rus, "Closed-form continuous-time neural networks", in *Nature Machine Intelligence*, vol. 4, pp. 992–1003, 2022, [doi: 10.1038/s42256-022-00556-7](https://doi.org/10.1038/s42256-022-00556-7).
