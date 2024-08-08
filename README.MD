@@ -6,7 +6,8 @@ The training and inference Docker images were built by extending the PyTorch 2.1
 ## Model Description
 The model is a stack of RNN layers with either LSTM or GRU cells. 
 Each RNN layer is followed by an activation layer and a dropout layer.
-The model is trained by minimizing the negative Gaussian log-likelihood and outputs the predicted mean and standard deviation of each target time series at each future time step.
+The model is trained by minimizing the negative Gaussian log-likelihood and outputs the predicted mean and standard deviation at each future time step.
+The algorithm can be used for both univariate and multivariate time series and supports the inclusion of external features.
 
 <img src=https://fg-research-assets.s3.eu-west-1.amazonaws.com/rnn-diagram.png style="width:80%;margin-top:20px;margin-bottom:20px"/>
 
@@ -95,4 +96,6 @@ See [`notebook.ipynb`](https://github.com/fg-research/rnn-sagemaker/blob/master/
 **Additional Resources:** [[Sample Notebook]](https://github.com/fg-research/rnn-sagemaker/blob/master/notebook.ipynb) [[Blog Post]](https://fg-research.com/blog/product/posts/rnn-fx-forecasting.html)
 
 ## References
-- J. Chung, C. Gulcehre, K. Cho, and Y. Bengio, "Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling", 2014, arXiv preprint, [doi:10.48550/arXiv.1412.3555](https://doi.org/10.48550/arXiv.1412.3555).
+- Hochreiter, S., & Schmidhuber, J. (1997). Long short-term memory. *Neural computation*, 9(8), 1735-1780.
+- Cho, K., Van Merriënboer, B., Gulcehre, C., Bahdanau, D., Bougares, F., Schwenk, H., & Bengio, Y. (2014). Learning phrase representations using RNN encoder-decoder for statistical machine translation. *arXiv preprint*. arXiv:1406.1078.
+- Chung, J., Gulcehre, C., Cho, K., & Bengio, Y. (2014). Empirical evaluation of gated recurrent neural networks on sequence modeling. *arXiv preprint*. arXiv:1412.3555.
