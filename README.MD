@@ -50,7 +50,7 @@ The training algorithm takes as input the following hyperparameters:
 - `hidden-size-1`: `str`. The number of hidden units of the first layer.
 - `hidden-size-2`: `str`. The number of hidden units of the second layer.
 - `hidden-size-3`: `str`. The number of hidden units of the third layer.
-- `activation`: `str`. The activation function applied after each layer.
+- `activation`: `str`. The activation function applied after each layer, either `"silu"`, `"relu"`, `"tanh"`, `"gelu"`, or `"lecun"`.
 - `dropout`: `float`. The dropout rate applied after each layer.
 - `lr`: `float`. The learning rate used for training.
 - `lr-decay`: `float`. The decay factor applied to the learning rate.
